@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
 :root {
   --cyan: hsl(179, 62%, 43%);
   --bright-yellow: hsl(71, 73%, 54%);
+
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
 }
@@ -22,7 +24,9 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  grid-template-areas: "community community" "subscription why";
+  grid-template-areas:
+    "community community"
+    "subscription why";
 }
 
 .community {
@@ -44,5 +48,3 @@ body {
   height: auto;
   background: #4abebd;
 }
-
-/*# sourceMappingURL=style.css.map */
